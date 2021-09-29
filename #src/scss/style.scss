@@ -130,13 +130,13 @@ background-image: url(../img/welding-banner.png);
 
 .perforator {
 background-image: url(../img/perforator-banner.png);
-top: -25%;
+bottom: 12%;
 }
 .grinders{
   background-image: url(../img/grinders-banner.png);
-  width: 55%;
-  right: -1%;
-  bottom: -46px;
+  width: 49%;
+  right: 0%;
+  top: 0%;
 }
 
 .land-weld__block__bj {
@@ -254,7 +254,7 @@ color: rgba(23, 23, 23, 0.6);
 }
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 768px) {
 .welding__section__land-weld {
   margin: 20px 15px;
   // padding-bottom: 30px;
@@ -288,6 +288,9 @@ width:100%;
 .compressor{
   width: 100%;
   padding-bottom: 80%;
+}
+.grinders{
+  background-image: url(../img/grinders-banner-mob.png);
 }
 }
 
