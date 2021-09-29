@@ -1132,195 +1132,219 @@ body {
           box-sizing: border-box;
 }
 
-.video-bonus .video-banner {
+.breadcrumbs {
+  display: none;
+}
+
+.welding {
+  margin: 0px auto;
+}
+
+h1 {
+  font-size: 2em;
+  margin: .67em 0;
+}
+
+img {
+  border-style: none;
+  max-width: 100%;
+}
+
+.hero-banner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   position: relative;
   width: 100%;
   background-color: #d9d9d9;
-  height: 754px;
-  overflow: hidden;
+  padding-top: 55.5%;
 }
 
-.video-bonus .video-banner__img {
-  width: 100%;
-  height: 100%;
+.hero-banner__thumb {
   position: absolute;
-  background-image: url(../img/video-head-foto.jpg);
+  width: 100%;
+  display: block;
   top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  pointer-events: none;
+}
+
+.hero-banner__text {
+  position: absolute;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 22px;
+  font-weight: 700;
+  bottom: 30.222222VW;
+  left: 9VW;
+  margin: 0;
+  letter-spacing: .03em;
+}
+
+.hero-banner__text__title {
+  position: absolute;
+  font-size: 19px;
+  margin-top: 30px;
+  width: 124px;
+  bottom: 7VW;
+  left: 9VW;
+  color: #fff;
+}
+
+.welding__section {
+  margin: 0px auto;
+  max-width: 1400px;
+}
+
+.welding__section__land-weld {
+  position: relative;
+  background-color: #EDEEF5;
+  margin: 80px 0px 100px;
+}
+
+.land-weld__block {
+  max-width: 690px;
+  padding: 45px 0% 0% 5%;
+  display: inline-block;
+  margin-right: 48%;
+}
+
+.land-weld__img {
+  position: absolute;
+  bottom: 0px;
+  right: 3%;
+  width: 46%;
+  height: auto;
+  padding-bottom: 35%;
+  background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
 }
 
-.video-bonus .video-banner__information {
-  position: absolute;
-  top: 210px;
-  right: 56%;
-  width: 580px;
+.welding-m16 {
+  background-image: url(../img/welding-banner.png);
 }
 
-.video-bonus .video-banner__text {
-  color: #fff;
-  font-size: 72px;
-  line-height: 100%;
+.compressor {
+  background-image: url(../img/compressor-banner.png);
+  width: 48%;
+  bottom: 14px;
+  padding-bottom: 43%;
 }
 
-.video-bonus .video-banner__subtext {
-  padding-left: 42%;
+.perforator {
+  background-image: url(../img/perforator-banner.png);
+  top: -22%;
 }
 
-.video-bonus .video-banner__text__title {
-  font-size: 18px;
-  line-height: 150%;
-  color: #fff;
-  width: 74%;
-  position: absolute;
-  right: 0px;
-  bottom: 100px;
+.grinders {
+  background-image: url(../img/grinders-banner.png);
+  width: 55%;
+  right: -1%;
+  bottom: -46px;
 }
 
-.video-bonus .video-banner__aroow {
-  width: 210px;
-  height: 210px;
-  position: relative;
-  width: 100%;
+.land-weld__block__bj {
+  display: inline;
+  font-style: normal;
+  display: block;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  background: #222222;
+  border-radius: 50px;
+  padding: 8px 15px 9px;
 }
 
-.video-bonus .img-circle {
-  position: absolute;
-  top: -51px;
-  left: -58px;
-  -webkit-animation: loader-1 20.1s infinite linear;
-          animation: loader-1 20.1s infinite linear;
-}
-
-@-webkit-keyframes loader-1 {
-  0% {
-    -webkit-transform: rotate(0deg);
-            transform: rotate(0deg);
-  }
-
-  100% {
-    -webkit-transform: rotate(360deg);
-            transform: rotate(360deg);
-  }
-}
-
-@keyframes loader-1 {
-  0% {
-    -webkit-transform: rotate(0deg);
-            transform: rotate(0deg);
-  }
-
-  100% {
-    -webkit-transform: rotate(360deg);
-            transform: rotate(360deg);
-  }
-}
-
-.video-bonus .img-arrow {
-  position: absolute;
-  top: 39px;
-  left: 37px;
-}
-
-.video-bonus .size-section {
-  margin: 0px auto;
-  padding: 0px 15px;
-  max-width: 1430px;
-}
-
-.video-bonus .flex-info {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  margin-bottom: 130px;
-}
-
-.video-bonus .flex-info-block {
-  width: 47%;
-  margin-top: 85px;
-}
-
-.video-bonus .flex-info__top-text {
+.land-weld__block__alt {
   font-weight: 500;
   font-size: 36px;
-  line-height: 150%;
-  color: #333333;
+  line-height: 45px;
+  color: #171717;
+  margin-bottom: 60px;
+  max-width: 530px;
 }
 
-.video-bonus .flex-info__short-desc {
-  font-size: 16px;
-  line-height: 150%;
-  color: rgba(51, 51, 51, 0.7);
-}
-
-.video-bonus .only-size {
-  width: 70%;
-  padding-top: 15px;
-}
-
-.video-bonus .flex-info-block__alt-text {
-  font-weight: 500;
-  font-size: 24px;
-  line-height: 100%;
-}
-
-.video-bonus .flex-info-block__title-text {
-  font-size: 16px;
-  line-height: 150%;
-  margin: 20px 0px 30px;
-  width: 75%;
-}
-
-.video-bonus .block-arrow {
-  width: 100px;
-  margin: 10px auto 0px;
-  text-align: center;
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 150%;
-  -webkit-box-ordinal-group: 7;
-      -ms-flex-order: 6;
-          order: 6;
-}
-
-.video-bonus .block-arrow__span {
-  margin: 0px;
-}
-
-.video-bonus .HoverVideo__wrapper {
-  width: 100%;
-  margin: 0px auto;
+.land-weld__block__accessories {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  max-width: 400px;
 }
 
-.video-bonus .HoverVideo__videoBox {
-  overflow: hidden;
+.land-weld__block__accessories-item {
+  width: 43%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 60px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
-.video-bonus .HoverVideo__videoBox .video {
-  height: 100%;
-  width: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+.accessories-item__img {
+  margin-right: 15px;
 }
 
-.video-bonus .HoverVideo__videoBox .video::-webkit-media-controls {
-  display: none !important;
+.land-weld__block__title {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: rgba(23, 23, 23, 0.6);
+}
+
+.other-size {
+  width: 130%;
+}
+
+.other-size-mask {
+  width: 110%;
+}
+
+.other-size-mask-block {
+  width: 46%;
+}
+
+@media only screen and (min-width: 400px) {
+  .hero-banner__text {
+    font-size: 6VW;
+  }
+
+  .hero-banner__text__title {
+    width: 370px;
+    color: #fff;
+    bottom: 15VW;
+    left: 9VW;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .hero-banner {
+    padding-top: 55.5%;
+  }
+
+  .hero-banner__text__title {
+    font-size: 3vw;
+    width: 250px;
+  }
 }
 
 @media only screen and (min-width: 1024px) {
@@ -1331,22 +1355,32 @@ body {
     position: static;
     height: auto;
   }
+
+  .hero-banner {
+    padding-top: 28.666%;
+    margin: 0px auto;
+  }
+
+  .hero-banner__text {
+    font-size: 3.2291666667vw;
+    bottom: 43%;
+    left: 13.2vw;
+    line-height: 120%;
+  }
+
+  .hero-banner__text__title {
+    font-size: 1.5vw;
+    width: 398px;
+    color: #fff;
+    bottom: 22%;
+    left: 13.3%;
+  }
 }
 
 @media only screen and (max-width: 1600px) {
   .video-bonus .publishing__img {
     width: 25%;
     right: 140px;
-  }
-}
-
-@media only screen and (max-width: 1399px) {
-  .video-bonus .video-banner__information {
-    right: 0px;
-    left: 0px;
-    margin: 0px auto;
-    top: 320px;
-    background-position: 100px center;
   }
 }
 
@@ -1567,108 +1601,44 @@ body {
   .video-bonus .dl-info-tabs-item__content p {
     font-size: 14px;
   }
-}
 
-@media only screen and (max-width: 700px) {
-  .video-bonus .video-banner {
-    height: 490px;
+  .welding__section__land-weld {
+    margin: 20px 15px;
   }
 
-  .video-bonus .video-banner__img {
-    background-position: 46% center;
+  .land-weld__block {
+    display: block;
+    margin: 0px auto;
+    padding: 30px 30px 0px;
   }
 
-  .video-bonus .video-banner__information {
-    width: 280px;
-    top: 229px;
-  }
-
-  .video-bonus .video-banner__text {
-    font-weight: 500;
-    font-size: 33.3382px;
-  }
-
-  .video-bonus .video-banner__subtext {
-    padding-left: 34%;
-  }
-
-  .video-bonus .video-banner__text__title {
-    font-size: 14px;
-    right: -25px;
-    top: 15px;
-  }
-
-  .video-bonus .video-banner__aroow {
-    height: 180px;
-  }
-
-  .video-bonus .img-circle {
-    width: 80%;
-    top: -53px;
-    left: -96px;
-  }
-
-  .video-bonus .img-arrow {
-    top: 34px;
-    left: -1px;
-  }
-
-  .video-bonus .flex-info {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    margin-bottom: 0px;
-  }
-
-  .video-bonus .flex-info-block {
+  .land-weld__img {
+    position: static;
+    margin: 0px auto;
     width: 100%;
-    position: relative;
-    margin-top: 50px;
+    padding-bottom: 59%;
   }
 
-  .video-bonus .indent-down {
-    margin-bottom: 40px;
+  .electrodes {
+    background-position-y: 0px;
   }
 
-  .video-bonus .flex-info__short-desc {
-    margin-top: 15px;
-  }
-
-  .video-bonus .only-size {
+  .land-weld__block__accessories {
     width: 100%;
-    padding-top: 0px;
+    max-width: none;
   }
 
-  .video-bonus .flex-info-block__title-text {
+  .other-size {
     width: 100%;
   }
 
-  .video-bonus .block-arrow {
-    -webkit-box-ordinal-group: 5;
-        -ms-flex-order: 4;
-            order: 4;
-    margin: 55px 0px 0px;
+  .other-size-mask {
     width: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: end;
-        -ms-flex-pack: end;
-            justify-content: flex-end;
   }
 
-  .video-bonus .block-arrow__span {
-    margin-right: -25px;
-  }
-
-  .video-bonus .block-arrow__img {
-    -webkit-box-ordinal-group: 5;
-        -ms-flex-order: 4;
-            order: 4;
-    -webkit-transform: rotate(-90deg);
-        -ms-transform: rotate(-90deg);
-            transform: rotate(-90deg);
+  .compressor {
+    width: 100%;
+    padding-bottom: 80%;
   }
 }
 
@@ -1717,6 +1687,45 @@ body {
   .video-bonus .slick-slider .slick-list {
     margin: 0px -15px 0px 0px;
   }
+
+  .land-weld__block__alt {
+    font-size: 22px;
+    line-height: 28px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+  }
+
+  .land-weld__block__accessories {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+
+  .land-weld__block__accessories-item:nth-child(2n+1) {
+    margin-right: 0px;
+  }
+
+  .land-weld__block__accessories-item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 10px 0px;
+  }
+
+  .land-weld__block__title {
+    display: inline-block;
+    font-size: 12px;
+    line-height: 15px;
+    width: 46%;
+  }
 }
 
 @media only screen and (max-width: 540px) {
@@ -1725,16 +1734,23 @@ body {
   }
 }
 
-@media only screen and (max-width: 500px) {
-  .video-bonus .img-circle {
-    width: 60%;
-    top: -40px;
-    left: -58px;
+@media only screen and (max-width: 465px) {
+  .land-weld__block__accessories {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
 
-  .video-bonus .img-arrow {
-    top: 26px;
-    left: 12px;
-    width: 9%;
+  .land-weld__block__accessories-item {
+    width: 100%;
+    margin: 0px;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+  }
+
+  .land-weld__block__title {
+    width: auto;
   }
 }
