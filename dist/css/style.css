@@ -1230,13 +1230,13 @@ img {
 .compressor {
   background-image: url(../img/compressor-banner.png);
   width: 48%;
-  bottom: 14px;
-  padding-bottom: 43%;
+  bottom: 8px;
+  padding-bottom: 41%;
 }
 
 .perforator {
   background-image: url(../img/perforator-banner.png);
-  top: -22%;
+  top: -25%;
 }
 
 .grinders {
@@ -1467,6 +1467,45 @@ img {
   .video-bonus .dl-open .dl-info-tabs-item {
     padding: 5px 15px 30px;
   }
+
+  .welding__section__land-weld {
+    margin: 20px 15px;
+  }
+
+  .land-weld__block {
+    display: block;
+    margin: 0px auto;
+    padding: 30px 30px 0px;
+  }
+
+  .land-weld__img {
+    position: static;
+    margin: 0px auto;
+    width: 100%;
+    padding-bottom: 59%;
+  }
+
+  .electrodes {
+    background-position-y: 0px;
+  }
+
+  .land-weld__block__accessories {
+    width: 100%;
+    max-width: none;
+  }
+
+  .other-size {
+    width: 100%;
+  }
+
+  .other-size-mask {
+    width: 100%;
+  }
+
+  .compressor {
+    width: 100%;
+    padding-bottom: 80%;
+  }
 }
 
 @media only screen and (max-width: 1000px) {
@@ -1600,45 +1639,6 @@ img {
 
   .video-bonus .dl-info-tabs-item__content p {
     font-size: 14px;
-  }
-
-  .welding__section__land-weld {
-    margin: 20px 15px;
-  }
-
-  .land-weld__block {
-    display: block;
-    margin: 0px auto;
-    padding: 30px 30px 0px;
-  }
-
-  .land-weld__img {
-    position: static;
-    margin: 0px auto;
-    width: 100%;
-    padding-bottom: 59%;
-  }
-
-  .electrodes {
-    background-position-y: 0px;
-  }
-
-  .land-weld__block__accessories {
-    width: 100%;
-    max-width: none;
-  }
-
-  .other-size {
-    width: 100%;
-  }
-
-  .other-size-mask {
-    width: 100%;
-  }
-
-  .compressor {
-    width: 100%;
-    padding-bottom: 80%;
   }
 }
 
