@@ -1644,6 +1644,19 @@ img {
   .grinders {
     background-image: url(../img/grinders-banner-mob.png);
   }
+
+  .section-table-settind {
+    padding-bottom: 82%;
+  }
+
+  .img-table-settind {
+    position: absolute;
+    bottom: -1%;
+    right: 0;
+    top: auto;
+    padding-bottom: 89%;
+    background-position-x: right;
+  }
 }
 
 @media only screen and (max-width: 600px) {
