@@ -1375,6 +1375,10 @@ img {
     bottom: 22%;
     left: 13.3%;
   }
+
+  .padding-table {
+    padding-bottom: 0px;
+  }
 }
 
 @media only screen and (max-width: 1600px) {
